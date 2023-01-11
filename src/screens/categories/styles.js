@@ -4,7 +4,7 @@ import { COLORS } from "../../constants/theme/colors";
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: COLORS.background,
+        backgroundColor: COLORS.white,
         marginTop: StatusBar.currentHeight 
     },
     title: {

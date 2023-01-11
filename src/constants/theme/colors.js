@@ -6,5 +6,6 @@ export const COLORS = {
     backgroundlight: '#544F4F',
     white: '#ffffff',
     gray: '#BFBFBF',
-    text: '#fff'
+    text: '#fff',
+    tabs: '#648790'
 }

@@ -1,32 +1,37 @@
 export const CATEGORIES = [
     {
         id: 1,
-        title: 'Harinas Puras',
+        title: 'Malbec',
         color: '#FFD151',
     },
     {
         id: 2,
-        title: 'Harinas Integrales',
+        title: 'Merlot',
         color: '#FFDDA1',
     },
     {
         id: 3,
-        title: 'Harinas de Trigo',
+        title: 'Pinot Noir',
         color: '#F8C537',
     },
     {
         id: 4,
-        title: 'Harinas de Maíz',
+        title: 'Espumantes',
         color: '#EDB230',
     },
     {
         id: 5,
-        title: 'Harinas de Centeno',
+        title: 'Torrontes',
         color: '#E77728',
     },
     {
         id: 6,
-        title: 'Harinas de Cebada',
+        title: 'Cabernet Suavignon',
         color: '#F6BA13',
     },
+    {
+        id: 7,
+        title: 'Syrah',
+        color: '#F6BA13',
+    }
 ];
