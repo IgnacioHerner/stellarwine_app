@@ -11,12 +11,12 @@ const ShopNavigator = () => {
                 initialRouteName="Categories"
                 screenOptions={{
                     headerStyle: {
-                        backgroundColor: COLORS.tabs
+                        backgroundColor: COLORS.primary
                     },
                     headerTintColor: COLORS.text,
                     headerTitleStyle: {
                         fontFamily: 'OpenSans-Bold',
-                        fontSize: 18,
+                        fontSize: 22,
                         
                     },
                     headerTitleAlign: 'center',

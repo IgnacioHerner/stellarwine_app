@@ -11,5 +11,20 @@ export const styles = StyleSheet.create({
     title: {
         fontFamily: 'OpenSans-Bold',
         fontSize: 20,
+        borderBottomWidth: 1,
+        borderBottomColor: COLORS.primarylight
+    },
+    price: {
+        fontFamily: 'OpenSans-Bold',
+        fontSize: 18,
+    },
+    description: {
+        borderWidth: 1,
+        borderColor: COLORS.primarylight,
+        paddingVertical: 20,
+        paddingHorizontal: 20,
+        backgroundColor: COLORS.backgroundlight,
+
     }
+    
 })

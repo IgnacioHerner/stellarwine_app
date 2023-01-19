@@ -1,5 +1,5 @@
 import React from "react";
-import { FlatList, SafeAreaView } from "react-native";
+import { FlatList, SafeAreaView, Text } from "react-native";
 import { useSelector, useDispatch } from "react-redux";
 import { selectCategory } from "../../store/actions";
 import { styles } from "./styles";
@@ -23,6 +23,7 @@ const Categories = ({ navigation }) => {
     
     return (
         <SafeAreaView style={styles.container}>
+            <Text style={styles.title}>Vinos de otra galaxia</Text>  
             <FlatList 
                 data={categories}
                 renderItem={renderItem}

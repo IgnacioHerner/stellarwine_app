@@ -2,36 +2,31 @@ export const CATEGORIES = [
     {
         id: 1,
         title: 'Malbec',
-        color: '#FFD151',
+        color: '#545775',
     },
     {
         id: 2,
         title: 'Merlot',
-        color: '#FFDDA1',
+        color: '#545775',
     },
     {
         id: 3,
         title: 'Pinot Noir',
-        color: '#F8C537',
+        color: '#545775',
     },
     {
         id: 4,
-        title: 'Espumantes',
-        color: '#EDB230',
+        title: 'Torrontes',
+        color: '#545775',
     },
     {
         id: 5,
-        title: 'Torrontes',
-        color: '#E77728',
+        title: 'Cabernet Suavignon',
+        color: '#545775',
     },
     {
         id: 6,
-        title: 'Cabernet Suavignon',
-        color: '#F6BA13',
-    },
-    {
-        id: 7,
         title: 'Syrah',
-        color: '#F6BA13',
+        color: '#545775',
     }
 ];

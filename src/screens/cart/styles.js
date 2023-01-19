@@ -27,6 +27,15 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         alignItems: 'center',
     },
+    buttonDisabledConfirm : {
+        backgroundColor: COLORS.gray,
+        borderRadius: 5,
+        paddingHorizontal: 20,
+        paddingVertical: 15,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+    },
     textButtonConfirm: {
         fontSize: 14,
         fontFamily: 'OpenSans-Regular'
