@@ -1,6 +1,6 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { Camera } from '../screens';
+import { CameraScreen } from '../screens';
 import { COLORS } from "../constants/theme/colors";
 
 const Stack = createNativeStackNavigator();
@@ -23,8 +23,8 @@ const CameraNavigator = () => {
         }}
         > 
         <Stack.Screen
-            name="Camera"
-            component={Camera}
+            name="Camara"
+            component={CameraScreen}
         />
         </Stack.Navigator>
     )

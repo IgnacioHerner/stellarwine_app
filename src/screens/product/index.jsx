@@ -22,11 +22,13 @@ const Product = ({navigation}) => {
             <Image source={{ uri:image }} style={{width: 300, height:400, marginTop: 20 }}/>
             <Text style={styles.price}>${price}</Text>
             <Text style={styles.description}>{description}</Text>
-            <Button 
-                title= 'Agregar al carrito'
-                onPress={onAddToCart}
-                color={COLORS.primary}
-            />
+            <View style={styles.btnContainer}>
+                <Button 
+                    title= 'Agregar al carrito'
+                    onPress={onAddToCart}
+                    color={COLORS.primary}
+                />  
+            </View>
         </View>
     )
 }

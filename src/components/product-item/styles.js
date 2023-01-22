@@ -22,6 +22,7 @@ export const styles = StyleSheet.create({
     detailsContainer: {
         flexDirection: 'row',
         justifyContent: 'space-between',
+        paddingBottom: 100,
     },
     price: {
         fontFamily: 'OpenSans-Bold',

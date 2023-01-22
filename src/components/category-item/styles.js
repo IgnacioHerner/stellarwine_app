@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
         borderRadius: 10,
         marginHorizontal: 20,
         marginVertical: 10,
-        height: 160,
+        height: 100,
     },
     contentContainer: {
         flex: 1,

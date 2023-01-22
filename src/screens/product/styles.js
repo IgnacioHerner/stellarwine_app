@@ -21,10 +21,13 @@ export const styles = StyleSheet.create({
     description: {
         borderWidth: 1,
         borderColor: COLORS.primarylight,
-        paddingVertical: 20,
+        paddingVertical: 10,
         paddingHorizontal: 20,
         backgroundColor: COLORS.backgroundlight,
 
+    },
+    btnContainer: {
+        paddingTop: 10,
     }
     
 })

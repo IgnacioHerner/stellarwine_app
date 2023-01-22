@@ -23,7 +23,9 @@ const Categories = ({ navigation }) => {
     
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.title}>Vinos de otra galaxia</Text>  
+            <Text style={styles.title}>Vinos de otra galaxia</Text>
+            <Text style={styles.title2}>Nuestras categorias de vinos</Text>
+
             <FlatList 
                 data={categories}
                 renderItem={renderItem}

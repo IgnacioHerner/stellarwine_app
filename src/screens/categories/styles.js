@@ -13,6 +13,11 @@ export const styles = StyleSheet.create({
         fontSize: 26,
         fontFamily: 'OpenSans-Bold',
         paddingLeft: 55,
-        color: COLORS.text
+        borderBottomWidth: 1, 
+    },
+    title2: {
+        fontSize: 18,
+        paddingLeft: 70,
+        fontFamily: 'OpenSans-Regular',
     }
 })
